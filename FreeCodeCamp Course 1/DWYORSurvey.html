@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Sert Survey</title>
+  <link rel="stylesheet" href="styles.css"/>
+  </head>
+<body>
+  <h1 id="title"> Sert Survey</h1>
+<p id="description">Tell us for improvement</p>
+  <form id="survey-form">
+<label id="name-label">Fullname :
+  <input id="name" type="text" placeholder="Enter your fullname" required>
+  </input></label>
+    <label id="email-label">Email : 
+      <input id="email" type="email" placeholder="Enter your Email" required>
+      </input></label>
+      <label id="number-label">Age :
+    <input id="number" type="number" min="18" max="100" required placeholder="age"></input>
+</label>
+
+
+     <legend>Gender:</legend> 
+      
+      <label for="male"><input type="radio" id="male" class="inline" name="gender" checked/>male</label>
+      <label for="female"><input type="radio" id="female" class="inline" name="gender"/>female</label>
+
+<div>
+<label for="break">
+  How many times you taking break during job a day ?
+    <select id="dropdown">
+      <option id="">select</option>
+      <option id="once">once</option>
+      <option id="twice">twice</option>
+      <option id="3+">3 or more</option>
+    </select>
+    </label>
+</div>
+
+  <legend>What equipments suits for your jobs? <br>u can pick more than one.</legend>
+ <br>
+ <input type="checkbox" id="desktop" name="desktop" value="desktop-pc" class="inline">
+ <label for="desktop">Desktop PC</label> <br>
+ <input type="checkbox" id="laptop" name="laptop" value="laptop" class="inline">
+ <label for="laptop">Laptop</label> <br>
+<input type="checkbox" id="smarthphone" name="smartphone" value="smartphone" class="inline">
+ <label for="desktop">Smartphone</label> <br>
+<br>
+
+<legend>Give us comments or suggestion.<br>
+<label for="textbox"> 
+  <textarea id="textbox" rows="4" cols="20" placeholder="Enter comments here.."></textarea></label>
+
+      <input id="submit" type="submit" value="submit"/>
+      
+  </form>
+  </body>
+  </html>
+
+  <!-- now u know u can use br for page break lol-->
