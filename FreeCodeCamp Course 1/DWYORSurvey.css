@@ -1,0 +1,48 @@
+h1, p{
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0.5em;
+}
+
+body{
+  background-color: rgb(135,135,255)
+}
+label{
+  font-size: 16px;
+  font-family: tahoma;
+
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+input{
+  margin: 0 0 10px 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+.inline{
+vertical-align: middle;
+width: unset;
+margin: auto;
+}
+
+legend{
+  font-size: 16px;
+  font-family: tahoma;
+  margin-top: 1.5em;
+  
+}
+
+input[type='checkbox'] + label {
+  display: inline-block;
+}
+
+label{
+  
+}
